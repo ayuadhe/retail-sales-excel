@@ -5,6 +5,11 @@
 </p>
 
 ### Executive Summary
+This project analyzes 464K cleaned retail transactions from a UK-based online retailer, reduced from an initial dataset of 541K records through data cleaning and preparation. Covering the period from January to November 2011, the analysis uses Microsoft Excel, Power Query, Power Pivot, and DAX to evaluate sales performance, product and market contributions, and order cancellations.
+
+The analysis revealed that sales growth was primarily driven by increasing order volume, while the UK contributed 84% of total revenue. The top 10 products accounted for only 8.1% of revenue, whereas cancellations represented 14.6% of orders but just 2.3% of revenue. 
+
+Based on these findings, the analysis recommends sustaining order growth, exploring opportunities to expand revenue across international markets, and investigating cancellation patterns to identify potential operational improvements.
 
 <br>
 
