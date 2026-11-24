@@ -1,7 +1,7 @@
 # Retail Sales Performance & Cancellation Analysis
 
 <p align="center">
-  <img width="1670" height="1080" alt="Image" src="https://github.com/user-attachments/assets/eed5136b-57d4-42b0-a486-4505b591c759" />
+  <img width="1670" height="1080" alt="project_01" src="https://github.com/user-attachments/assets/60049df9-6437-43f9-9011-4d653ed9c9cc" />
 </p>
 
 ### Executive Summary
@@ -74,13 +74,13 @@ B. **Product & Market Performance**
 
 C. **Order Cancellation Analysis**
 <p align="center">
-  <img width="2036" height="1042" alt="image" src="https://github.com/user-attachments/assets/9ff05554-d3c4-4ed8-b4e7-044a936ef588" />
+  <img width="2030" height="1042" alt="image" src="https://github.com/user-attachments/assets/249f252d-aa64-4f07-94a3-cb153420b73d" />
 </p>
 
 - Cancellations account for 14.6% of total order volume but only 2.3% of revenue, indicating that cancellations are more prevalent among lower-value transactions.
 - Cancellation-related revenue peaked in April (~£33.3K) and October (~£41.6K).
 - White Hanging Heart T-Light Holder recorded the highest cancellation volume at 2,049 units, nearly twice that of the second-highest product.
-- Saudi Arabia and the Czech Republic recorded the highest cancellation rates at 50%, warranting further investigation to identify potential contributing factors.
+- Among countries with at least 30 orders, Italy (about 29%), Switzerland (about 27%), and Germany (about 23%) recorded the highest cancellation rates, compared with about 14% in the UK. The causes behind these higher rates warrant further investigation.
 
 <br>
 
@@ -121,11 +121,16 @@ Cancellations accounted for 14.6% of total orders but only 2.3% of revenue, sugg
    - Identify the key drivers of order cancellations by examining the purchase stages most frequently associated with cancellations, particularly among lower-value transactions.
    - Investigate the factors behind cancellation spikes in April and October to develop preventive measures for similar periods in the future.
    - Review stock availability, product quality, and customer expectations for White Hanging Heart T-Light Holder to identify potential causes of its high cancellation volume.
-   - Prioritize investigations into the high cancellation rates in Saudi Arabia and the Czech Republic by analyzing transaction patterns and factors that may influence customer cancellation decisions.
-
+   - Investigate the higher cancellation rates in Italy, Switzerland, and Germany by analyzing order patterns, product mix, and customer behavior to identify what drives cancellations in these markets.
 
 <br>
 
 ### 9. Limitations
-
-
+- The absence of product category data limits category-level sales analysis.
+- Missing customer IDs limit customer retention and repeat purchase analysis.
+- The absence of cancellation reasons and order stages prevents deeper investigation into cancellation causes.
+- Incomplete December records limit full-year performance and seasonal analysis.
+- The absence of product cost and operational expense data prevents profitability and margin analysis.
+- The absence of inventory and shipping data limits stock availability and delivery performance analysis.
+- The bulk purchase threshold (quantity above 1,196) is based on a statistical method rather than a business-defined criterion.
+- Country-level cancellation analysis is limited to countries with at least 30 orders, as rates based on smaller samples are unreliable.
