@@ -4,21 +4,19 @@
   <img width="1670" height="1080" alt="project_01" src="https://github.com/user-attachments/assets/60049df9-6437-43f9-9011-4d653ed9c9cc" />
 </p>
 
-### Executive Summary
-This project analyzes 464K cleaned retail transactions from a UK-based online retailer, reduced from an initial dataset of 541K records through data cleaning and preparation. Covering the period from January to November 2011, the analysis uses Microsoft Excel, Power Query, Power Pivot, and DAX to evaluate sales performance, product and market contributions, and order cancellations.
+### 1. Executive Summary
+This project analyzes 464K cleaned retail transactions from a UK-based online retailer, reduced from an initial dataset of 541K records through data cleaning and preparation. Covering January to November 2011, the analysis uses Microsoft Excel, Power Query, Power Pivot, and DAX to evaluate sales performance, product and market contributions, and order cancellations.
 
-The analysis revealed that sales growth was primarily driven by increasing order volume, while the UK contributed 84% of total revenue. The top 10 products accounted for only 8.1% of revenue, whereas cancellations represented 14.6% of orders but just 2.3% of revenue. 
-
-Based on these findings, the analysis recommends sustaining order growth, exploring opportunities to expand revenue across international markets, and investigating cancellation patterns to identify potential operational improvements.
+The analysis found that sales growth was primarily driven by increasing order volume, while the UK accounted for 84% of total revenue. The top 10 products contributed only 8.1% of revenue, indicating a broad product revenue distribution. Meanwhile, cancellations represented 14.6% of orders but only 2.3% of revenue. These findings inform recommendations to sustain order growth, diversify market contributions, and investigate cancellation patterns for operational improvements.
 
 <br>
 
-### 1. Project Overview
-This project analyzes 464K retail transactions from a UK-based online retailer between January and November 2011 to evaluate overall business performance. Using Power Query, the Excel Data Model, and DAX, the results are presented in a three-page interactive dashboard covering sales performance, product and market contributions, and cancellations. The insights help sales, marketing, and operations teams decide where to focus.
+### 2. Project Overview
+This project evaluates the business performance of a UK-based online retailer through an interactive Excel dashboard. The dashboard consists of three pages covering sales performance, product and market contributions, and order cancellations. The analysis highlights key performance drivers and areas requiring attention, helping sales, marketing, and operations teams identify priorities for improvement.
 
 <br>
 
-### 2. Objective
+### 3. Objective
 The objective is to build an interactive Excel dashboard that turns transaction data into clear answers to three business questions:
 1. How is the business performing overall?
 2. What drives sales performance?
@@ -26,7 +24,7 @@ The objective is to build an interactive Excel dashboard that turns transaction 
 
 <br>
 
-### 3. Key Areas of Analysis
+### 4. Key Areas of Analysis
 1. **Sales Performance Analysis**: Monthly trends in Net Sales, total orders, Average Order Value (AOV), and units sold, and country-level Net Sales and AOV performance.
 
 2. **Product & Market Performance**: Product sales distribution, top 10 products and top 5 countries by Net Sales, sales contribution by customer type (registered vs. guest), and performance comparison between bulk and non-bulk orders based on sales and AOV.
@@ -35,7 +33,7 @@ The objective is to build an interactive Excel dashboard that turns transaction 
 
 <br>
 
-### 4. Dataset Overview
+### 5. Dataset Overview
 | Information | Before Cleaning | After Cleaning & Transformation |
 |---|---|---|
 | Records | 541,910 | 464,136 |
@@ -47,12 +45,12 @@ The objective is to build an interactive Excel dashboard that turns transaction 
 
 <br>
 
-### 5. Tools & Methodology
+### 6. Tools & Methodology
 - **Microsoft Excel**: using Power Query for data preparation, Power Pivot and the Data Model for data modeling and DAX measures, and PivotTables, PivotCharts, and slicers for interactive dashboard development.
 
 <br>
 
-### 6. Visualization & Analysis
+### 7. Visualization & Analysis
 A. **Sales Performance Analysis**
 <p align="center">
   <img width="1996" height="1040" alt="image" src="https://github.com/user-attachments/assets/7f0fca21-2a83-4424-bcb6-83186ab1977a" />
@@ -89,7 +87,7 @@ C. **Order Cancellation Analysis**
 
 <br>
 
-### 7. Key Findings
+### 8. Key Findings
 1. **Sales Growth Driven by Order Volume** <br>
 Sales showed a positive growth trend, particularly from September to November, primarily driven by an increase in order volume while AOV remained relatively stable.
 
@@ -107,7 +105,7 @@ Cancellations accounted for 14.6% of total orders but only 2.3% of revenue, sugg
 
 <br>
 
-### 8. Recommendations
+### 9. Recommendations
 
 1. **Sales Growth & Market Expansion**
    - Capitalize on the September–November sales momentum by identifying key growth drivers, such as promotional effectiveness, seasonal trends, and customer behavior, to refine marketing strategies and maintain adequate stock availability.
@@ -130,7 +128,7 @@ Cancellations accounted for 14.6% of total orders but only 2.3% of revenue, sugg
 
 <br>
 
-### 9. Limitations
+### 10. Limitations
 - The absence of product category data limits category-level sales analysis.
 - Missing customer IDs limit customer retention and repeat purchase analysis.
 - The absence of cancellation reasons and order stages prevents deeper investigation into cancellation causes.
